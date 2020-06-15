@@ -1,0 +1,1222 @@
+@import url('https://fonts.googleapis.com/css?family=Concert+One&display=swap');
+
+*{
+padding: 0;
+margin: 0;
+outline: none;
+font-family: 'Concert One' ;
+
+}
+
+body{
+  background-image: url('../img/fond_site.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.administration footer{
+
+  margin-top: 30%;
+}
+
+.administration .adminform form{
+display: flex;
+width: 40%;
+min-width: 400px;
+flex-direction: column;
+background-color:rgba(255, 255, 255, 0.5);
+padding: 10px;
+align-items: center;
+justify-content: space-between;
+height: 900px;
+
+}
+
+.taille{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.administration .adminform textarea{
+
+width: 80%;
+height: 300px;
+resize:none;
+
+}
+
+.form{
+  width: 70%;
+}
+
+.administration .adminform form input[type="text"],input[type="file"], select {
+
+width: 70%;
+padding: 10px;
+border:1px solid white;
+
+}
+
+.option{
+
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.administration .choix input[type="submit"], .option input[type="submit"]{
+  padding: 10px;
+  background-color: #F5B041;
+  color: white;
+  transition: 0.5s;
+  border:none;
+  cursor: pointer;
+}
+
+.administration .choix input[type="submit"]:hover, .administration .option input[type="submit"]:hover{
+background-color: #273746 ;
+}
+
+.administration .adminform form input[type="number"]{
+  width: 100px;
+  padding: 10px;
+}
+
+.administration input[type="file"]:focus,
+textarea:focus{
+ 
+  border-color: #129FEA;  
+}
+
+.adminform{
+width: 100%;
+display: flex;
+justify-content: center;
+margin-top: 5%;
+
+}
+
+.adminform2{
+width: 100%;
+display: flex;
+justify-content: center;
+height: 100px;
+margin-bottom: 20%;
+margin-top: 10%;
+
+}
+
+.adminform3{
+width: 100%;
+display: flex;
+justify-content: center;
+height: 250px;
+margin-bottom: 20%;
+margin-top: 10%;
+
+}
+
+
+
+.adminform2 input[type="text"], .adminform3 input[type="text"]{
+
+  padding: 10px;
+  width: 80%;
+}
+
+.administration .adminform2 form, .administration .adminform3 form{
+display: flex;
+width: 30%;
+min-width: 400px;
+flex-direction: column;
+background-color:rgba(255, 255, 255, 0.5);
+padding: 10px;
+align-items: center;
+justify-content: space-between;
+
+}
+
+footer{
+display:flex;
+justify-content: space-between;
+width: 100%;
+background-color: #F5B041;
+margin-top: 5%;
+}
+
+footer,p, h3, .categorie a, a{
+
+color:white;
+text-decoration: none;
+transition: 0.2s;
+
+}
+
+footer a:hover, .categorie a:hover{
+	color:#2C3E50;
+}
+
+
+footer .footer{
+	display:flex;
+	flex-direction: column;
+	flex:2;
+	justify-content: flex-end;
+	align-items: center
+
+}
+
+footer #mentions{
+	display:flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 290px;
+	padding: 7px;
+	
+}
+
+footer #mentions div{
+
+display:flex;
+width: 290px;
+justify-content: space-between;
+margin-bottom: 10px;
+
+}
+
+
+footer .categorie h3{
+   text-decoration: underline;
+   padding:7px;
+}
+
+
+footer .categorie .titre{
+
+display:flex;
+flex-direction: column;
+justify-content: space-between;
+height: 50%;
+margin-top: 15%;
+padding:7px;
+
+
+}
+
+footer .img{
+padding: 7px;
+}
+
+footer .map{
+background-image:url(../img/map.png); 
+background-repeat: no-repeat;
+height: 80%;
+transition: 0.8s;
+padding: 7px;
+}
+
+
+footer .map:hover{
+
+background-image:url(../img/map2.png); 
+}
+
+
+
+
+input[type="submit"]{
+	cursor:pointer;
+}
+
+.mail{
+
+border:none;
+width:200px;
+height:50px;
+color:#fff;
+font-weight:700;
+border-radius:.25rem;
+text-transform:uppercase!important;
+background-color:#1C2833 
+}
+
+.mail:hover{
+
+background-color:black;
+cursor:pointer;
+}
+
+.contact{
+
+display: flex;
+width: 100%;
+justify-content: center;
+margin-top: 15%;
+margin-bottom: 15%;
+}
+
+
+nav a{
+
+color: white;
+margin: 0;
+padding:13px;
+text-decoration: none;
+list-style-type:none;
+display: flex;
+flex-direction:row;
+justify-content: space-around;
+text-align: center;
+
+}
+
+nav {
+  width: 100%;
+  text-align: center;
+  padding:0;
+  margin:0;
+
+  
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; 
+
+}
+
+li {
+  margin: 0;
+  background-color: #2C3E50 ;
+  
+}
+
+.menu , .lien {
+  display: block;
+  padding: 10px 0;
+  color: white;
+  text-decoration: none;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  position:relative;
+  z-index:2;
+  transition: 0.2s;
+
+}
+
+
+.menu:hover,
+.menu:focus {
+  color: #F5B041 ;
+}
+
+nav > ul {
+  display: table;
+  width: 100%;
+
+}
+nav > ul > li {
+  display: table-cell;
+  width: 16%;
+  
+}
+nav > ul li {
+  position: relative;
+}
+nav li ul {
+  display: none;
+  position: absolute;
+
+}
+nav > ul > li > ul {
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+nav > ul > li li > ul {
+  top: 0;
+  left: 100%;
+}
+nav li:hover > ul {
+  display: block;
+}
+nav > ul > li > ul .menu {
+  text-align: left;
+  padding: 10px;
+}
+
+li a{
+transition: 0.2s;
+}
+
+ li a:hover{
+color: #F5B041 ;
+}
+
+.logohover{
+  height: 50px;
+  background-image:url(../img/logo.png);
+  background-size: 200px;
+  width: 200px;
+  transition: 0.2s;
+}
+
+.logohover:hover{
+  height: 50px;
+  background-image:url(../img/logohover.png);
+  background-size: 200px;
+  width: 200px;
+}
+
+.logoprofilhover{
+  height: 35px;
+  background-image:url(../img/logo_profil.png);
+  background-size: 35px;
+  width: 35px;
+  transition: 0.2s;
+}
+
+
+
+.logoprofilhover:hover{
+  background-image:url(../img/logo_profilhover.png);
+}
+
+.logopanierhover{
+  height: 35px;
+  background-image:url(../img/logo_panier.png);
+  background-size: 35px;
+  width: 35px;
+  transition: 0.2s;
+}
+
+.logopanierhover:hover{
+  height: 35px;
+  background-image:url(../img/logo_panierhover.png);
+  background-size: 35px;
+  width: 35px;
+  transition: 0.2s;
+}
+
+
+
+
+.sous_categorie{
+
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20%;
+}
+
+.sous_categorie div{
+
+display:flex;
+justify-content: space-between;
+width: 45%;
+
+}
+
+
+
+
+.disconnect input[type="submit"]{
+
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 100%; 
+  transition: 0.2s;
+}
+
+.disconnect input[type="submit"]:hover{
+
+  color: #F5B041;
+}
+
+
+#form_log{
+display: flex;
+justify-content: space-between;
+width: 100%;
+flex-direction: column;
+align-items: center;
+margin-top: 120px;
+margin-bottom: 120px;
+height: 150px;
+
+}
+
+#form_log2{
+display: flex;
+justify-content: space-between;
+width: 100%;
+flex-direction: column;
+align-items: center;
+margin-top: 120px;
+margin-bottom: 120px;
+height: 300px;
+
+}
+
+.log_titre{
+
+margin-top: 120px;
+text-align: center;
+color:white;
+}
+
+#form_log form, #form_log2 form{
+  width: 30%;
+  min-width: 300px;
+  background-color:rgba(255, 255, 255, 0.5);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+
+}
+
+
+
+#form_log form input[type="text"], input[type="password"], #form_log2 form input[type="text"], #form_log2 form input[type="password"], #form_log2 form input[type="email"] {
+
+  width: 50%;
+  min-width: 210px;
+  padding: 8px;
+}
+
+#form_log form input[type="submit"], #form_log2 form input[type="submit"]{
+
+  width: 30%;
+  padding: 5px;
+  background-color: #F5B041;
+  color: white;
+  transition: 0.5s;
+  border:none;
+  cursor: pointer;
+}
+
+#form_log form input[type="submit"]:hover, #form_log2 form input[type="submit"]:hover{
+  
+  background-color: #273746;
+}
+
+
+.produits_encadrement{
+background-color: rgba(255, 255, 255, 0.63);
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+margin-top: 5%;
+margin-bottom: 10%;
+}
+
+.hover_produits:hover{
+background-color: rgba(0, 0, 0, 0.61);
+
+}
+
+.hover_produits1{
+height: 250px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+
+.hover_produits1 p{
+
+font-size: 25px;
+
+}
+
+/*DESCRIPTION*/
+
+.infos_produit{
+background-color: rgba(255, 255, 255, 0.63);
+display: flex;
+margin-top: 10%;
+margin-bottom: 10%;
+justify-content: space-between;
+
+}
+
+.image_produit{
+
+  display: flex;
+  justify-content: center;
+  flex:1;
+}
+
+.nom_produit{
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+}
+
+.nom_produit h1{
+  font-size: 25px;
+}
+
+.description_produit{
+width: 70%;
+margin-top: 5%;
+}
+
+.detail_produit{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  flex:2;
+
+}
+
+/*DESCRIPTION*/
+
+/*DERNIER AJOUT*/
+
+
+
+.accueil h1{
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.63); 
+  width: 100%;
+  height: 80px;
+  margin-top: 10%;
+}
+
+.dernier_ajout div{
+display:flex;
+flex-direction: column;
+
+}
+
+.dernier_ajout h2{
+
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+
+.uplodad{
+  text-align:center;
+  color:white;
+}
+
+.ajout_panier{
+display: flex;
+align-items: flex-end;
+}
+
+.infos_produit .ajout_panier form input[type="number"]{
+
+height: 50%;
+width: 50px;
+}
+
+.infos_produit .ajout_panier form input[type="submit"]{
+
+width: 40px;
+height: 40px;
+background-image: url("../img/logo_panier.png");
+background-size: cover;
+background-color: transparent;
+border:none;
+transition: 0.5s;
+margin-right: 8px;
+}
+
+.infos_produit .ajout_panier form input[type="submit"]:hover{
+
+background-image: url("../img/logo_panierhover.png");
+}
+
+
+
+.ajout_panier form{
+display: flex;
+align-items: center;
+width: 210px;
+justify-content: space-between;
+
+}
+.ajout_panier div{
+  display: flex;
+  width: 130px;
+  justify-content: space-between;
+}
+
+.panier_vide{
+  text-align: center;
+  color:white;
+  margin-top: 5%;
+}
+
+.image_bonhomme{
+  
+  display:flex;
+  margin-top: 5%;
+  justify-content: center;
+  width:100%;
+}
+
+.infos_panier, .infos_commande{
+
+  display:flex;
+  justify-content: center;
+  width:100%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.infos_panier table, .infos_commande table{
+
+  background-color: rgba(255, 255, 255, 0.7); 
+  width: 70%;
+  padding: 20px;
+  font-size: 13px;
+}
+
+
+
+
+.dernier_ajout{
+
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+  background-color: rgba(255, 255, 255, 0.63); 
+  }
+
+.infos_panier table tr, .infos_commande table tr{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid;
+}
+
+.prix_total, .prix_commande{
+  width:100%;
+  display: flex;
+  justify-content: center;
+   margin-bottom: 10%;
+}
+
+.prix_total .valid_panier{
+  width: 250px;
+  background-color: rgba(255, 255, 255, 0.63); 
+  text-align: center;
+  font-size: 20px;
+  height: 80px;
+  padding: 10px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.prix_commande div{
+
+  width: 250px;
+  background-color: rgba(255, 255, 255, 0.63); 
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.prix_total form input[type="submit"]{
+
+  padding: 10px;
+  background-color: #F5B041;
+  color: white;
+  transition: 0.5s;
+  border:none;
+  cursor: pointer;
+
+}
+.prix_total form input[type="submit"]:hover{
+
+background-color: #273746;
+}
+
+.corbeille input[type="submit"]{
+
+  width: 50px;
+  height: 50px;
+  background-image: url("../img/corbeille.png");
+  background-size: cover;
+  background-color: transparent;
+  border:none;
+  transition: 0.5s;
+}
+
+.corbeille input[type="submit"]:hover{
+
+  background-image: url("../img/corbeillehover.png");
+
+}
+
+.form_information{
+
+  width:100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.form_information form{
+  width:50%;
+  min-width: 400px;
+  background-color: rgba(255, 255, 255, 0.63);
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+  height: 500px;
+}
+
+.info_cb{
+
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  align-items: center;
+}
+
+
+.info_cb input[type="number"]{
+
+  width: 70%;
+  padding: 10px;
+}
+
+.form_information form input[type="text"], input[type="email"]{
+
+width: 70%;
+padding: 10px;
+
+}
+
+.form_information form input[type="submit"]{
+
+  padding: 10px;
+  background-color: #F5B041;
+  color: white;
+  transition: 0.5s;
+  border:none;
+  cursor: pointer;
+}
+
+.form_information form input[type="submit"]:hover{
+
+background-color: #273746;
+}
+
+.form_information fieldset{
+
+  width: 80%;
+  text-align: center;
+  padding: 10px;
+}
+
+.form_information .cb{
+
+  width: 60%;
+  height: 200px;
+}
+
+.form_information .moyen_paiement{
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.visa, .paypal{
+  
+  display:flex;
+  width: 100px;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+
+  
+}
+
+.mastercard{
+
+  display:flex;
+  width: 150px;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.visa div{
+  width: 25%;
+  height: 40%;
+  display: flex;
+  justify-content: flex-start;
+  background-image: url(../img/visa.png);
+  background-size: cover;
+}
+
+.mastercard div{
+  width: 18%;
+  height: 30%;
+  display: flex;
+  justify-content: flex-start;
+  background-image: url(../img/mastercard.png);
+  background-size: cover;
+}
+
+.paypal div{
+
+  width: 30%;
+  height: 30%;
+  display: flex;
+  justify-content: flex-start;
+  background-image: url(../img/logo-paypal.jpg);
+  background-size: cover;
+}
+
+.visite_boutique{
+  display:flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  height: 200px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.visite_boutique h1{
+
+  color:white;
+}
+
+.visite_boutique div{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  background-color: rgba(255, 255, 255, 0.63);
+  height: 25%;
+}
+
+.visite_boutique div button{
+
+  padding: 10px;
+  background-color: #F5B041;
+  color: white;
+  transition: 0.5s;
+  border:none;
+  cursor: pointer;
+}
+
+.visite_boutique div button:hover{
+
+  background-color: #273746;
+}
+
+.box_avis{
+
+ background-color: rgba(255, 255, 255, 0.63);
+ width: 50%;
+ min-width: 450px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.avis_produit{
+
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avis_produit h1{
+
+ font-size: 25px;
+}
+
+.avis_produit .form_avis{
+
+  width: 95%;
+  min-width:400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height:auto;
+  align-items: center;
+}
+
+
+.form_avis textarea{
+
+ resize:none;
+ width: 100%;
+ height: 150px;
+ margin-top: 5%;
+
+}
+
+.form_avis input[type="submit"]{
+
+  padding: 10px;
+  background-color: #F5B041;
+  color: white;
+  transition: 0.5s;
+  border:none;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.form_avis input[type="submit"]:hover{
+  
+  background-color: #273746;
+}
+.avis_clients{
+
+  margin-top: 2%;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  background-color: white;
+  word-wrap: break-word;
+  margin-bottom: 2%;
+  padding: 10px;
+}
+
+.corbeille_avis{
+
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  align-items: flex-end;
+}
+
+
+.corbeille_avis form input[type="submit"]{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.corbeille_avis form input[type="submit"]:hover{
+  
+  background-image: url("../img/corbeillehover.png");
+}
+
+.avis_clients .supprimer_avis{
+
+  width: 30px;
+  height: 30px;
+  background-image: url("../img/corbeille.png");
+  background-size: cover;
+  background-color: transparent;
+  border:none;
+  transition: 0.5s;
+}
+
+.nom_heure{
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.barre_recherche{
+
+  margin-top:5%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.barre_recherche form{
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.barre_recherche form input[type="submit"]{
+
+  width: 100px;
+  padding: 5px;
+  background-color: #F5B041;
+  color: white;
+  transition: 0.5s;
+  border:none;
+  cursor: pointer;
+}
+
+.barre_recherche form input[type="submit"]:hover{
+  
+  background-color: #273746;
+}
+
+/*PARTIE RESPONSIVE*/
+
+
+
+@media (max-width: 1200px) {
+ 
+  .infos_panier table, .infos_commande table{
+
+  background-color: rgba(255, 255, 255, 0.7); 
+  width: 100%;
+  font-size: 15px;
+  }
+
+  footer{
+    margin-top:30%;
+  }
+  .contact{
+    margin-top: 50%;
+    margin-bottom: 50%;
+  }
+
+  .administration footer{
+
+  margin-top: 80%;
+}
+
+}
+
+@media (max-width: 900px) {
+ 
+  .infos_panier table, .infos_commande table{
+
+  background-color: rgba(255, 255, 255, 0.7); 
+  width: 100%;
+  font-size: 8px;
+  }
+
+  .infos_commande img{
+
+    width: 30px;
+  }
+
+  .img{
+    display:none;
+  }
+
+}
+
+
+
+@media (max-width: 1350px) {
+  .sous_categorie div{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .sous_categorie {
+
+    height: 700px;
+  }
+
+  .administration .adminform form input[type="text"], select {
+
+  width: 40%;
+  padding: 10px;
+  border:1px solid white;
+
+  }
+
+  .administration .adminform form input[type="file"]{
+
+  width: 400px;
+  padding: 10px;
+  border:1px solid white;
+
+  }
+  .option input[type="submit"]{
+
+  padding: 10px;
+  background-color: #F5B041;
+  color: white;
+  transition: 0.5s;
+  border:none;
+  cursor: pointer;
+  font-size: 10px;
+  width: 180px;
+
+  }
+  .option{
+
+   text-align: center;
+  }
+
+  .adminform3 form, .adminform2 form, .adminform form{
+    font-size: 12px;
+  }
+
+}
+
+
+
+@media (max-width: 1150px) {
+ .infos_produit{
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .detail_produit{
+    display: flex;
+    justify-content: flex-end;
+     width: 100%;
+     align-items: center;
+  }
+  .nom_produit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .form_information form{
+  font-size:15px;
+  }
+
+  .logohover{
+    display:none;
+  }
+
+  .logo_responsive{
+    display: none;
+  }
+
+  header li{
+    font-size: 10px;
+  }
+
+
+  .log_titre{
+
+    font-size: 30px;
+  }
+}
+
+
